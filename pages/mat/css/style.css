@@ -10,7 +10,14 @@ body {
     line-height: 1.42857143;
     color: #333;
     background-color: #fff;
+
+    margin: 0;
+    display: block;
 }
+
+header { 
+    text-align: center; 
+} 
 
 section {
 
@@ -22,58 +29,9 @@ h1 {
 
  }
 
- .tópicos-conteiner {
-
-
- }
-
- .col-md-8 {
-
-
- }
-
- .col-md-4-sidebar {
-    width: 33.33333333%;
-    position: relative;
-    min-height: 1px;
+.tópicos-conteiner {
     padding-right: 15px;
     padding-left: 15px;
-
- }
-
- .row {
-
-
- }
-
- .col-md-12 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-
-
- }
-
- .cabeçalho {
-
-
- }
-
- .col-md-4 {
-
-
- }
-
- .title {
-
-
- }
-
- .link-matérias {
-     
-
-
- }
-
-
+    margin-right: auto;
+    margin-left: auto;
+}
