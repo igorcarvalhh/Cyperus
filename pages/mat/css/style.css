@@ -1,37 +1,44 @@
-html{
-    min-height: 100%;
-    position: relative;
+.cabeçalho {
+    text-decoration: none;
     background-color: aliceblue;
+    overflow: hidden;
 }
 
-body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
-
-    margin: 0;
-    display: block;
+.title {
+    font-size: 17px;
 }
 
-header { 
-    text-align: center; 
-} 
-
-section {
-
-    
+.back {
+    position: relative;
+    float: right;
 }
 
-h1 {
 
+.columnA{
+    float: left;
+    width: 40%;
+    padding: 15px;
+    text-align: justify;
+  }
 
- }
-
-.tópicos-conteiner {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
+  .columnB {
+    float: right;
+    width: 40%;
+    padding: 15px;
+    padding-top: 30px;
+    text-align: justify;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
