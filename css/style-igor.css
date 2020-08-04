@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Dubai;
+    src: "../fonts/DubaiW23-Regular";
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.logo {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo a {
+    position: fixed;
+}
+
+.logo img {
+    margin: 6px 12px 6px 6px;
+}
+
+.nav {
+    height: 100px;
+    background-color: white;
+    font-family: Dubai;
+    font-weight: bold;
+    padding-right: 18%;
+    padding-left: 18%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #232424;
+}
+
+#icone-logo {
+    width: 38px;
+    height: 38px;;
+}
+
+.menu {
+    float: right;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.menu a {
+    margin-left: 12px;
+}
+
+#cyperus {
+    font-size: 32px;
+    color: black;
+}
