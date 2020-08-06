@@ -69,9 +69,7 @@ body {
 .recent-news-menu #fundo1{
     height: 480px;
     width: 80%;
-    background-image: url(../imgs/fundo.jpg);
-    background-size: cover;
-    background-position-y: -180px;
+    background: linear-gradient(to right, #000 0, #0c0d0e00 240px, rgba(255,255,255,0.4) 290px), url(http://lorempixel.com/output/animals-q-g-500-500-9.jpg) no-repeat;
 }
 
 .recent-news-menu #fade{
