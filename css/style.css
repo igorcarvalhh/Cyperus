@@ -10,6 +10,8 @@
 
 body {
     background-color: #F3F3F3;
+    min-width: 1000px;
+    height: 4000px;
 }
 
 .logo {
@@ -19,7 +21,7 @@ body {
 }
 
 .logo a {
-    position: fixed;
+    position: absolute;
 }
 
 .logo img {
