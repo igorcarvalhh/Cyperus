@@ -60,39 +60,5 @@ body {
     color: black;
 }
 
-.recent-news-menu {
-    height: 480px;
-    width: 100%;
-    display: flex;
-}
 
-.recent-news-menu #fundo1{
-    height: 480px;
-    width: 80%;
-    background-image: url(../imgs/fundo.jpg);
-    background-size: cover;
-    background-position-y: -180px;
-}
 
-.recent-news-menu #fade{
-    background-image: url(../imgs/fundo.jpg);
-    background-size: cover;
-    position: absolute;
-    margin: auto;
-    background-position-y: -180px;
-    background: linear-gradient(to right, black, #ffffff00 90%), linear-gradient(to left, #000000, transparent 90%);
-}
-
-.recent-news-menu #faixadir{
-    height: 480px;
-    width: 10%;
-    background-color: black;
-    float: right;
-}
-
-.recent-news-menu #faixaesq{
-    height: 480px;
-    width: 10%;
-    background-color: black;
-    float: left;
-}
