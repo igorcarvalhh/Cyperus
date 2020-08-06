@@ -61,6 +61,37 @@ body {
     font-size: 32px;
     color: black;
 }
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 20%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+  .editor-s-pick {
+      padding-top: 150px;
+  }
+  /* Clear floats after the columns */
+  .editor-s-pick:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 480px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
 
 
 
