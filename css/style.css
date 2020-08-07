@@ -68,16 +68,22 @@ body {
   
   /* Left and right column */
   .column.side {
-    width: 20%;
-  }
+    float: right;
+    width: 30%;
+    height: 309px;
+}
+
   
   /* Middle column */
   .column.middle {
-    width: 50%;
+    width: 60%;
+    height: 309px;
   }
   .editor-s-pick {
-      padding-top: 150px;
-  }
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
   /* Clear floats after the columns */
   .editor-s-pick:after {
     content: "";
@@ -92,6 +98,10 @@ body {
       width: 100%;
     }
   }
+
+  
+
+  
 
 
 
