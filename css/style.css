@@ -99,11 +99,6 @@ body {
     }
   }
 
-<<<<<<< HEAD
-  
-
-  
-=======
   .scroll {
     background: linear-gradient(to right, rgba(0, 0, 0, 1) 3%,rgba(255, 255, 255, 0) 50%), linear-gradient(to left, rgba(0, 0, 0, 1) 3%,rgba(255, 255, 255, 0) 50%), url("../imgs/fundo.jpg");
     height: 500px;
@@ -113,7 +108,6 @@ body {
     background-size: cover;
     background-position-y: 30%;  
   }
->>>>>>> 7f0866e9914ce17557cd7c09d393bbbb7658481b
 
 
 
