@@ -57,6 +57,13 @@ body {
     margin-left: 12px;
 }
 
+#cadastro {
+  padding: 5px 10px 5px 10px;
+  background-color: #00EB37;
+  border-radius: 5px;
+  color: white;
+}
+
 #cyperus {
     font-size: 32px;
     color: black;
@@ -115,7 +122,35 @@ body {
 .scroll div {
   width: 50px;
   height: 50px;
-  background-color: green;
+  background-color: white;
   border-radius: 100%;
+  display: inline;
+  float: right;
+  margin-top: 400px;
+  opacity: 50%;
+  transition: opacity 0.3s;
 }
 
+#moveright {
+  margin-right: 20%;
+  margin-left: 15px;
+}
+
+#moveright img {
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 11px;
+  position: relative;
+}
+
+#moveleft img {
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 6px;
+  position: relative;
+  transform: rotate(180deg);
+}
+
+.scroll div:hover {
+  opacity: 100%;
+}
