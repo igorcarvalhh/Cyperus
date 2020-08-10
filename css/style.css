@@ -61,11 +61,31 @@ body {
     font-size: 32px;
     color: black;
 }
+
+.content.tittle {
+  font-size: 25px;
+}
+
+.bar{
+    margin-bottom: 30px;
+    height: 5px;
+    height: 3px;
+    background-color: #000000b8;
+} 
+
+.bar.editor {  
+    width: 150px;
+
+}
+
+
 .column {
     float: left;
     padding: 10px;
   }
   
+
+
   /* Left and right column */
   .column.topright {
     float: right;
@@ -79,8 +99,17 @@ body {
   .column.topmiddle {
     width: 60%;
     height: 150px;
-    border: 1px solid black
+    border: 1px solid black;
+    background: url(../imgs/fundo.jpg);
+    background-size: 583.375px 275px;
   }
+
+.note.topmiddle {
+  float: right;
+  background-color:rgb( white,white,white, 73%) ;
+
+}
+
   .editor-s-pick {
     padding-top: 5%;
     padding-left: 18%;
