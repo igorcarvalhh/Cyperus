@@ -142,50 +142,37 @@ body {
     }
   }
 
-  .scroll {
-    background: linear-gradient(to right, rgba(0, 0, 0, 1) 0%,rgba(255, 255, 255, 0) 30%), linear-gradient(to left, rgba(0, 0, 0, 1) 0%,rgba(255, 255, 255, 0) 30%), url("../imgs/fundo.jpg");
-    height: 500px;
-    width: 100%;
-    padding-left: 250px;
-    box-sizing: border-box;
-    background-size: cover;
-    background-position-y: 30%;  
-  }
+.mainnew {
+  font-family: Dubai;
+}
 
-.scroll div {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  border-radius: 100%;
-  display: inline;
+.mainnew img {
+  width: 60%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.mainnew div {
   float: right;
-  margin-top: 400px;
-  opacity: 50%;
-  transition: opacity 0.3s;
+  width: 40%;
+  height: 500px;
+  background-color: white;
+  padding: 8%;
+  box-sizing: border-box;
 }
 
-#moveright {
-  margin-right: 20%;
-  margin-left: 15px;
+.mainnew h1 {
+  font-size: 50px;
+  color: #2F3031;
 }
 
-#moveright img {
-  width: 30px;
-  margin-top: 10px;
-  margin-left: 11px;
-  position: relative;
+.mainnew a {
+  background-color: #00EB37;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  font-size: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 1px;
 }
-
-#moveleft img {
-  width: 30px;
-  margin-top: 10px;
-  margin-left: 6px;
-  position: relative;
-  transform: rotate(180deg);
-}
-
-.scroll div:hover {
-  opacity: 100%;
-}
-
-
