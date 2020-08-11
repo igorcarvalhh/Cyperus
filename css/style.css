@@ -88,7 +88,7 @@ body {
 
 .column {
     float: left;
-    padding: 10px;
+    padding: 0px;
   }
   
 
@@ -106,6 +106,7 @@ body {
   .column.topmiddle {
     width: 60%;
     height: 150px;
+    padding: 0px;
     border: 1px solid black;
     background: url(../imgs/fundo.jpg);
     background-size: 583.375px 275px;
@@ -113,7 +114,10 @@ body {
 
 .note.topmiddle {
   float: right;
-  background-color:rgb( white,white,white, 73%) ;
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  margin: 0;
 
 }
 
@@ -183,3 +187,5 @@ body {
 .scroll div:hover {
   opacity: 100%;
 }
+
+
