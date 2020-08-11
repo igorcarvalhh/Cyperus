@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Dubai;
+    src: "../fonts/DubaiW23-Regular";
+}
+
+body {
+    background-color: #F3F3F3;
+    min-width: 1000px;
+    height: 4000px;
+}
+
+.logo {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.logo a {
+    position: absolute;
+}
+
+.logo img {
+    margin: 6px 12px 6px 6px;
+}
+
+.nav {
+    height: 100px;
+    background-color: white;
+    font-family: Dubai;
+    font-weight: bold;
+    padding-right: 18%;
+    padding-left: 18%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #232424;
+}
+
+#icone-logo {
+    width: 38px;
+    height: 38px;;
+}
+
+.menu {
+    float: right;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.menu a {
+    margin-left: 12px;
+}
+
+#cadastro {
+  padding: 5px 10px 5px 10px;
+  background-color: #00EB37;
+  border-radius: 5px;
+  color: white;
+}
+
+#cyperus {
+    font-size: 32px;
+    color: black;
+}
+
+.content.tittle {
+  font-size: 25px;
+}
+
+.bar{
+    margin-bottom: 30px;
+    height: 5px;
+    height: 3px;
+    background-color: #000000b8;
+} 
+
+.bar.editor {  
+    width: 150px;
+
+}
+
+
+.column {
+    float: left;
+    padding: 10px;
+  }
+  
+
+
+  /* Left and right column */
+  .column.topright {
+    float: right;
+    width: 30%;
+    height: 150px;
+    border: 1px solid black
+}
+
+  
+  /* Middle column */
+  .column.topmiddle {
+    width: 60%;
+    height: 150px;
+    border: 1px solid black;
+    background: url(../imgs/fundo.jpg);
+    background-size: 583.375px 275px;
+  }
+
+.note.topmiddle {
+  float: right;
+  background-color:rgb( white,white,white, 73%) ;
+
+}
+
+  .editor-s-pick {
+    padding-top: 5%;
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+  /* Clear floats after the columns */
+  .editor-s-pick:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 480px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+
+.mainnew {
+  font-family: Dubai;
+}
+
+.mainnew img {
+  width: 60%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.mainnew div {
+  float: right;
+  width: 40%;
+  height: 500px;
+  background-color: white;
+  padding: 8%;
+  box-sizing: border-box;
+}
+
+.mainnew h1 {
+  font-size: 50px;
+  color: #2F3031;
+}
+
+.mainnew a {
+  background-color: #00EB37;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  font-size: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 1px;
+}
