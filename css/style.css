@@ -157,16 +157,38 @@ body {
   width: 40%;
   height: 500px;
   background-color: white;
-  padding: 8%;
+  padding-right: 8%;
+  padding-left: 8%;
+  padding-top: 100px;
   box-sizing: border-box;
+}
+
+.mainnew a {
+  text-decoration: none;
+  color: #2F3031;
 }
 
 .mainnew h1 {
   font-size: 50px;
-  color: #2F3031;
 }
 
-.mainnew a {
+.mainnew h1:hover {
+  text-decoration: underline;
+}
+
+.mainnew h3 {
+  color: #606364;
+}
+
+.mainnew p {
+  margin-bottom: 20px;
+}
+
+.mainnew p:hover{
+  text-decoration: underline;
+}
+
+#tags {
   background-color: #00EB37;
   text-decoration: none;
   color: white;
@@ -175,4 +197,19 @@ body {
   padding-right: 10px;
   padding-left: 10px;
   padding-top: 1px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
