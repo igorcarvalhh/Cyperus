@@ -97,7 +97,7 @@ body {
   .column.topright {
     float: right;
     width: 30%;
-    height: 150px;
+    height: 200px;
     border: 1px solid black
 }
 
@@ -105,7 +105,7 @@ body {
   /* Middle column */
   .column.topmiddle {
     width: 60%;
-    height: 150px;
+    height: 200px;
     padding: 0px;
     border: 1px solid black;
     background: url(../imgs/fundo.jpg);
@@ -133,6 +133,34 @@ body {
     display: table;
     clear: both;
     
+  }
+
+  .column.bot {
+    border: 1px solid black;
+    padding: 5%;
+    width: 150px;
+    height: 100.444px;
+    margin-top: 30px;
+  }
+
+  #column-left {
+    float: left;
+  }
+
+  #column-middle {
+    float: left;
+    margin-left: 100px;
+    
+  }
+
+  #column-right{
+    float: right;
+  }
+
+  .most-viewed-post-s{
+    padding-top: 5%;
+    padding-left: 18%;
+    padding-right: 18%;
   }
   
   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
@@ -176,3 +204,4 @@ body {
   padding-left: 10px;
   padding-top: 1px;
 }
+
